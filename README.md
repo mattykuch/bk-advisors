@@ -1,2 +1,2 @@
 # bk-advisors
- Website for BK-Advsiros , a management consulting firm
+ Website for BK-Advsiros , our management consulting firm
