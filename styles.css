@@ -1,0 +1,42 @@
+/* Custom Styles */
+
+/* Hero Section Styles */
+.hero-section {
+    /* Replace the URL with your desired background image */
+    background: url('assets/network-bg.jpg') no-repeat center center/cover;
+    height: 100vh;
+    position: relative;
+  }
+  
+  .hero-section::before {
+    /* Overlay to darken the background image for better text contrast */
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .hero-section .container {
+    position: relative;
+    z-index: 2;
+  }
+  
+  /* Adjust footer text */
+  footer p {
+    margin: 0;
+  }
+  
+  /* Optional: Add custom styles for Blog and Testimonials sections */
+  #blog .card-img-top,
+  #testimonials .card {
+    border-radius: 0;
+  }
+  
+  #testimonials blockquote {
+    font-style: italic;
+    margin: 0;
+  }
+  
